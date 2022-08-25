@@ -1,0 +1,163 @@
+.profile__nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile__nav div {
+    margin-left: 20px;
+}
+
+.profile__nav .reader a img {
+    padding: 17px;
+    /* margin: 0; */
+    margin-top: 5px;
+
+    border-style: solid;
+    border-width: 2px;
+    border-color: #b4b4b4;
+    border-radius: 20px;
+}
+
+.notification a img {
+    max-width: 20px;
+}
+
+.bookmark a img {
+    max-width: 18px;
+}
+
+.profile__inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    min-height: 550px;
+    margin: 180px 0;
+}
+
+.profile__inner button {
+    max-width: 30px;
+    /* margin-bottom: -50px; */
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.profile__info {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.profile__image {
+    padding: 50px;
+
+    border-style: solid;
+    border-width: 3px;
+    border-color: #b4b4b4;
+    border-radius: 70px;
+}
+
+.profile__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.profile__name {
+    margin-left: 30px;
+    font-size: 36px;
+
+    align-items: center;
+}
+
+/* .profile__name */
+button {
+    background-color: #000026;
+    border-width: 0;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
+
+.profile__name img {
+    height: 20px;
+    /* margin-left: 5px; */
+
+    margin: 0 0 3px 5px;
+}
+
+.profile__statistics {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    margin-top: 20px;
+}
+
+.profile__statistics div {
+    margin-left: 30px;
+}
+
+.profile__statistics div div {
+    margin-left: 3px;
+}
+
+.profile__bookmarks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.bookmarks__top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.bookmarks__titles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.titles__item {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    font-size: 24px;
+
+    margin-left: 30px;
+}
+
+.titles__item:first-child {
+    margin-left: 10px;
+}
+
+.titles__item:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.item__count {
+    font-size: 16px;
+    margin-left: 3px;
+}
+
+.bookmarks__search {
+    margin-right: 15px;
+}
+
+.bookmarks__bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    margin-top: 35px;
+}
+
+.bottom__item a img {
+    width: 175px;
+}
